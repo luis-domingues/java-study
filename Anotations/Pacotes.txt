@@ -1,0 +1,3 @@
+Em Java, existem milhares de classes com finalidades diversas, por isso existe a necessidade de organização. E daí, a linguagem Java dispõe de um recurso que organiza classes padrão e criadas que conhecemos como PACOTES.
+
+Pacotes são subdiretórios a partir da pasta `src`do projeto, onde estão localizadas as classes da linguagem e novas que foram criadas para o projeto.

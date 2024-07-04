@@ -1,0 +1,49 @@
+Conceito de POO (Programação Orientada a Objeto)
+
+Primeiramente, é necessário ter o conhecimento da definição de linguagem de baixo e alto nível.
+
+Baixo nível: São linguagens que estão mais próximas da interpretação da máquina diante do algoritmo desenvolvido. Ex: Assembly.
+
+Alto nível: São linguagens que disponibilizam uma proposta de sintaxe (escrever processos a serem executados) mais próxima de interpretação humana. Ex: Java, C#, C++, etc.
+
+Exemplo de um simples `Hello World` em Assembly x Python:
+
+Assembly:
+    section .text
+        global _start
+    _start
+
+        mov   edx, len
+        mov   ecx, msg
+        mov   ebx, 1
+        mov   eax, 4
+        int   0x80
+
+    section .data
+    msg     db      'Hello, world!',0xa
+    len     equ     $ - msg
+
+Python:
+    print('Hello, world!')
+
+A POO é um paradigma de programação baseado no conceito de "objetos", que podem conter dados na forma de campos, também conhecidos como atributos e códigos, na forma de procedimentos, também conhecidos como métodos.
+
+Dito a definição de POO, o próximo passo é saber sobre as Classes.
+Toda estrutura de código na linguagem Java é distribuído em arquivos com a extensão .java denominados de classe.
+As classes existentes em um projeto serão compostas por: Identificador, Características e Comportamentos.
+
+Identificador (identity): Propósito existencial aos objetos que serão criados.
+Características (states): Conhecidos também como atributos ou propriedades, é toda a informação que representa o estado do objeto.
+Instanciar (new): É o ato de criar um objeto a partir de estrutura definida de uma classe.
+
+Algumas convenções sobre Classes podem ser classificadas como:
+Classe de modelo (model): que representem estrutura de domínio da aplicação, ex: Cliente, Pedido, Nota Fiscal, etc.
+Classe de serviço (service): contém regras de negócios e validação do sistema.
+Classe de repositório (repository): contém uma integração com banco de dados.
+Classe utilitária (util): contém recursos comuns a toda aplicação, exemplo: datas.
+
+Ex: 	Uma CONCESSIONÁRIA cuida de VEÍCULOS dos CLIENTES - Todos são atributos.
+	    Os funcionários fazem SERVIÇOS nos VEÍCULOS (VeiculoService) - Isso é um Serviço
+	    Os DADOS DOS CLIENTES, dos VEÍCULOS precisam estar salvos em algum lugar - isso são repositórios.
+	    Ao salvar o CPF do cliente, ele precisa estar formatado corretamente no sistema (FormatadorUtil) - Exemplo de formatação.
+
