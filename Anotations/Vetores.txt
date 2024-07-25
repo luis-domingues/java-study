@@ -1,0 +1,9 @@
+ARRAY ou VETOR, é uma estrutura de dados usada para armazenar dados do mesmo tipo. Eles armazenam seus elementos em localizações sequenciais contínuas da memória.
+
+Sua estrutura é feita da seguinte forma: tipo[] nomeDoVetor;
+   - ex: int[] idade;
+
+O próximo passo seria inicializar o vetor e para isso existe 2 formas: a forma direta e a forma onde é passado somente a forma do vetor
+   - Forma direta -> int[] idade = {6, 10, 13, 18};
+
+   - Forma indireta -> int[] idade = new int[4]

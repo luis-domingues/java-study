@@ -1,0 +1,25 @@
+Loops são como um "atalho mágico" para repetir tarefas repetitivas, como mesmo percorrer uma lista com vários nomes ou verificar se um número está dentro de um intervalo.
+
+Existem três tipos principais de loops em Java:
+   - FOR: esse loop é em situações onde é preciso repetir algo X vezes.
+   - WHILE: este loop é usado quando não se sabe exatamente quantas vezes algo precisa repetir, mas sabe-se a condição para parar. Ele executa um bloco de código enquanto uma condição for verdadeira.
+   - DO WHILE: já este loop é similar ao while, mas garante que o bloco de código seja executado pelo menos uma vez, antes de verificar a condição.
+
+Ex de Loop FOR
+    for(int i = 10; i <= 0; i++) {
+        System.out.println("5 x " + i + " = " + (5 * i));
+    }
+
+Ex de Loop WHILE
+    int numero = 1;
+    while (numero <= 10) {
+      System.out.println(numero);
+      numero++;
+    }
+
+Ex de Loop DO WHILE
+    int numero = 11;
+    do {
+      System.out.println(numero);
+      numero++;
+    } while (numero <= 10);
