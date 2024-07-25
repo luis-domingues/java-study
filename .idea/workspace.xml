@@ -5,18 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3891b39d-0ad8-4805-8899-8ab92fb46a9b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Anotations/POO.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Anotations/Pacotes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POO_Java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EsquemaLoginPOO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/area/client/InfosClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/area/server/ClientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Anotations/Loops.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Anotations/TiposPrimitivos.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Anotations/Vetores.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayEList/ArrayEList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/loop/Loop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tiposPrimitivos/tiposPrimitivos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,11 +42,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ArrayEList.executor": "Run",
     "Application.Escola.executor": "Run",
     "Application.EsquemaLoginPOO.executor": "Run",
+    "Application.Loop.executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/Admin/-dio-projeto-java/POO_Java/src/Main.java",
